@@ -1,0 +1,55 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+/static/
+media/
+
+# Docker
+*.log
+docker-compose.override.yml
+**/docker-compose.override.yml
+**/docker-compose*.yml
+**/*.env
+.env
+
+# Redis
+*.pid
+*.lock
+*.db
+redis_data/
+
+# Postgres
+pgdata/
+
+# Daphne / Channels
+*.sock
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# Python egg and distribution files
+*.egg-info/
+.eggs/
+dist/
+build/
